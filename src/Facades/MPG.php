@@ -1,5 +1,5 @@
 <?php
-namespace LeoChien\Spgateway\Facades;
+namespace Yoshocon\Spgateway\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

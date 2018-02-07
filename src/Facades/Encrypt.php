@@ -7,7 +7,7 @@
  * Time: 下午3:53
  */
 
-namespace LeoChien\Spgateway\Facades;
+namespace Yoshocon\Spgateway\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

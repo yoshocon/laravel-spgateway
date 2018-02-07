@@ -35,7 +35,7 @@ Laravel Spgateway是一個開源的 [智付通](https://www.spgateway.com/) 非�
 ## 安裝
 
 ```
-$ composer require leochien/laravel-spgateway
+$ composer require Yoshocon/laravel-spgateway
 ```
 
 ## 配置
@@ -47,21 +47,21 @@ $ composer require leochien/laravel-spgateway
 ```php
 'providers' => [
     // ...
-    LeoChien\Spgateway\SpgatewayServiceProvider::class,
+    Yoshocon\Spgateway\SpgatewayServiceProvider::class,
 ],
 'aliases' => [
     // ...
-    'MPG' => LeoChien\Spgateway\Facades\MPG::class,
-    'Receipt' => LeoChien\Spgateway\Facades\Receipt::class,
-    'Refund' => LeoChien\Spgateway\Facades\Refund::class,
-    'Transfer' => LeoChien\Spgateway\Facades\Transfer::class,
+    'MPG' => Yoshocon\Spgateway\Facades\MPG::class,
+    'Receipt' => Yoshocon\Spgateway\Facades\Receipt::class,
+    'Refund' => Yoshocon\Spgateway\Facades\Refund::class,
+    'Transfer' => Yoshocon\Spgateway\Facades\Transfer::class,
 ],
 ```
 
 2. 創建設定檔：
 
 ```shell
-php artisan vendor:publish --provider="LeoChien\Spgateway\SpgatewayServiceProvider"
+php artisan vendor:publish --provider="Yoshocon\Spgateway\SpgatewayServiceProvider"
 ```
 
 3. 修改 `config/spgateway.php` 中對應的參數。
@@ -610,4 +610,3 @@ $res = $transfer->send();
 ## License
 
 Laravel Spgateway is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT)
-

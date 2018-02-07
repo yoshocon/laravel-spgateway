@@ -1,9 +1,9 @@
 <?php
 
-namespace LeoChien\Spgateway;
+namespace Yoshocon\Spgateway;
 
 use Exception;
-use LeoChien\Spgateway\Libraries\Helpers;
+use Yoshocon\Spgateway\Libraries\Helpers;
 
 class MPG
 {
@@ -66,7 +66,7 @@ class MPG
                 'MerchantID'      => config('spgateway.mpg.MerchantID'),
                 'RespondType'     => 'JSON',
                 'TimeStamp'       => time(),
-                'Version'         => '1.4',
+                'Version'         => config('spgateway.mpg.Version'),
                 'MerchantOrderNo' => $params['MerchantOrderNo'] ??
                     $this->helpers->generateOrderNo(),
                 'LangType'        => $params['LangType'] ?? 'zh-tw',

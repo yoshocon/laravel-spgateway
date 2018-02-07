@@ -1,5 +1,5 @@
 <?php
-namespace LeoChien\Spgateway;
+namespace Yoshocon\Spgateway;
 
 use Illuminate\Support\ServiceProvider;
 

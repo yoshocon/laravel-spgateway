@@ -16,6 +16,7 @@ return [
         'HashIV' => env('SPGATEWAY_HASH_IV', ''),
         'ReturnURL' => env('SPGATEWAY_RETURN_URL', ''),
         'NotifyURL' => env('SPGATEWAY_NOTIFY_URL', ''),
+        'Version' => env('MPG_VERSION', ''),
     ],
 
     /*

@@ -1,8 +1,8 @@
 <?php
 
-namespace LeoChien\Spgateway;
+namespace Yoshocon\Spgateway;
 
-use LeoChien\Spgateway\Libraries\Helpers;
+use Yoshocon\Spgateway\Libraries\Helpers;
 
 class Receipt
 {

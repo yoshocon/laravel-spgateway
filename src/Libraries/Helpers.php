@@ -7,7 +7,7 @@
  * Time: 下午6:04
  */
 
-namespace LeoChien\Spgateway\Libraries;
+namespace Yoshocon\Spgateway\Libraries;
 
 use GuzzleHttp\Client;
 
